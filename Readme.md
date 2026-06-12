@@ -26,7 +26,7 @@ Built as a learning project using the MERN stack.
 1. Clone the repo
 2. Add `.env` in server folder with:
 ```js
-PORT = ""
+
 MONGO_URI = ""
 JWT_SECRET = ""
 ```
@@ -34,7 +34,7 @@ JWT_SECRET = ""
 ```bash
 $ cd server
 $ npm install
-$ npm run dev
+$ node server.js
 ```
 4. To run client use:
 ```bash
